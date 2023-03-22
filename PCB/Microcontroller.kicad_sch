@@ -1949,6 +1949,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 202.565 113.665 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 855c1912-a4a1-477d-961a-f0a6e312bb8f)
+    (property "Reference" "C22" (at 205.74 113.03 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "27p" (at 205.74 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 203.5302 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 202.565 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1672d347-80d6-4b0c-9c17-aee7470b413b))
+    (pin "2" (uuid 0b5ca1f8-8d1f-4758-a0fb-78a3e6b881e2))
+    (instances
+      (project "Raspi Pico Board"
+        (path "/74fd863b-9e5a-408c-8bbe-ce93005c4fd4/33b17cad-1f6d-4a95-bb1b-2afc5c71b563"
+          (reference "C22") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 231.775 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8be6c2e3-9193-4ee5-b7d4-7cccafe06413)
